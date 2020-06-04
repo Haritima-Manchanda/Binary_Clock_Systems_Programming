@@ -4,11 +4,11 @@ A binary clock is a clock which displays the time in 24 hour notation in binary.
 
 In other words for 14:26:34 (14 hours, 26 minutes, 34 seconds) The display would look like this:
 
-row1: 0 0 0 0 0 0 0 0
-row2: 0 0 0 0 1 1 1 0 (14 in binary.  Should display hours in blue.  Each 1 would be a blue led turned on, each 0 would be an led turned off)
-row3: 0 0 0 0 0 0 0 0
-row4: 0 0 0 1 1 0 1 0 (26 in binary display in green).
-row5: 0 0 0 0 0 0 0 0
-row6: 0 0 1 0 0 0 1 0 (34 in binary display in red)
+1. row1: 0 0 0 0 0 0 0 0
+2. row2: 0 0 0 0 1 1 1 0 (14 in binary.  Should display hours in blue.  Each 1 would be a blue led turned on, each 0 would be an led turned off)
+3. row3: 0 0 0 0 0 0 0 0
+4. row4: 0 0 0 1 1 0 1 0 (26 in binary display in green).
+5. row5: 0 0 0 0 0 0 0 0
+6. row6: 0 0 1 0 0 0 1 0 (34 in binary display in red)
 
 Main.c initializes the frame buffer, then periodically gets the current time, and then displays it as described above on the led matrix.  The program exits when the user types ctrl-c on the keyboard.
