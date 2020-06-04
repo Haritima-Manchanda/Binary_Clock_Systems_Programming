@@ -1,5 +1,8 @@
 # CISC-210-BINARY-CLOCK
 ## DESCRIPTION
+
+This project is for system's programming in C language.
+
 A binary clock is a clock which displays the time in 24 hour notation in binary. Since the screen on the Raspberry pi is 8 pixels wide, we can easily display an 8 bit number across one row of the display. The program displays the current time (updating once a second) on the display in binary by turning on and off the led's in a row to represent the 8 bit binary number for that component of the time. 
 
 In other words for 14:26:34 (14 hours, 26 minutes, 34 seconds) The display would look like this:
