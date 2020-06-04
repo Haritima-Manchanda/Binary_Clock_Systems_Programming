@@ -10,7 +10,7 @@ In other words for 14:26:34 (14 hours, 26 minutes, 34 seconds) The display would
 1. row1: 0 0 0 0 0 0 0 0
 2. row2: 0 0 0 0 1 1 1 0 (14 in binary.  Should display hours in blue.  Each 1 would be a blue led turned on, each 0 would be an led turned off)
 3. row3: 0 0 0 0 0 0 0 0
-4. row4: 0 0 0 1 1 0 1 0 (26 in binary display in green).
+4. row4: 0 0 0 1 1 0 1 0 (26 in binary display in green)
 5. row5: 0 0 0 0 0 0 0 0
 6. row6: 0 0 1 0 0 0 1 0 (34 in binary display in red)
 
