@@ -1,4 +1,4 @@
-# CISC-210-BINARY-CLOCK
+# BINARY-CLOCK
 ## DESCRIPTION
 
 This project is for system's programming in C language.
